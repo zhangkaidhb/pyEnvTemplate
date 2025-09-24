@@ -1,0 +1,22 @@
+############################
+# Packaging & Publishing
+############################
+setuptools
+wheel
+build
+twine
+
+############################
+# Testing
+############################
+pytest
+pytest-cov
+coverage
+
+############################
+# Code Quality
+############################
+black
+ruff
+mypy
+pre-commit

@@ -1,0 +1,19 @@
+{
+  "terminal.integrated.defaultProfile.windows": "PowerShell (venv)",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell (venv)": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-NoLogo",
+        "-NoExit",
+        "-Command",
+        "& { if (Test-Path \"${workspaceFolder}\\build\\.venv\\Scripts\\Activate.ps1\") { . \"${workspaceFolder}\\build\\.venv\\Scripts\\Activate.ps1\" } }"
+      ],
+      "icon": "terminal-powershell"
+    }
+  },
+  "python.defaultInterpreterPath": "${workspaceFolder}\\build\\.venv\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": true
+}
+
+
